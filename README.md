@@ -7,12 +7,24 @@
 This project analyzes historical retail sales to identify the highest-revenue products, regional differences, monthly trends, and relationships between units sold and revenue. It demonstrates an end-to-end data engineering and analytics workflow: CSV source → AWS S3 → Snowflake → Snowpark Python → interactive Streamlit dashboard.
 
 The goal is to turn transaction-level sales records into evidence-based inventory, marketing and regional planning insights. The analysis is descriptive: it does not establish profitability, seasonality, or causal drivers.
+## Live Interactive Dashboard
 
-## Live Streamlit Dashboard
+**[Launch Retail Sales Performance Dashboard](https://retail-sales-performance-analysis-3ljqj9bbnadj5akwzpma2j.streamlit.app/)**
 
-**[Open the Retail Sales Performance Dashboard in Snowflake](https://app.snowflake.com/sicldcg/ml41894/#/streamlit-apps/RETAIL_SALES_PERFORMANCE_ANALISIS.PUBLIC.DWN5JH4NDSTXJ4X8)**
+This interactive dashboard was developed using **Snowflake, Snowpark Python, Streamlit, and Altair**.
 
-This is the Snowflake Streamlit app URL captured during project development. Viewers may need to sign in to Snowflake and be granted access to the application; this is not necessarily a public link.
+The application provides:
+
+- Sales KPIs, including total revenue, units sold, and revenue per unit.
+- Product sales performance and revenue distribution.
+- Monthly revenue trends.
+- Regional sales performance and product mix.
+- Live Snowflake data integration.
+- **Snowpark Python code displayed alongside each corresponding visualization**, allowing users to examine the calculations behind the results.
+
+**Technical architecture:** Snowflake → Snowpark Python → Streamlit → Interactive Dashboard.
+
+*Developed as part of the Data Engineering Academy portfolio.*
 
 ## Project requirements and delivery (Steps 1–7)
 
