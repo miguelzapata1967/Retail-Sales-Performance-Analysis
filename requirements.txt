@@ -1,0 +1,7 @@
+﻿streamlit
+snowflake-snowpark-python
+snowflake-connector-python
+pandas
+altair
+cryptography
+pyarrow>=14.0.1,<24
